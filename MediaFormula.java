@@ -1,4 +1,4 @@
-// Atividade desenvolvida em sala e compartilhada no dia 1/3/2023
+// Utilizei uma atividade desenvolvida em sala e compartilhada no dia 1/3/2023 e modifiquei o código para as características da fórmula.
 import java.util.Scanner;
 
 public class MediaFormula {
