@@ -5,7 +5,6 @@ import java.util.Scanner;
 public class SalarioVendedor {
 
     public static void main(String[] args) {
-        SalarioVendedor salario = new SalarioVendedor();
 
         int carrosVendidos;
         int totalVendas;
