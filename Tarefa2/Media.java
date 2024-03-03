@@ -44,6 +44,7 @@ public class Media {
 		else {
 			System.out.println("Média ponderada: " + nota.media_ponderada(N1, N2, N3));
 		}
+		sc.close();
 	}
 
 }
