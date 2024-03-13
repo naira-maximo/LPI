@@ -34,5 +34,7 @@ public class MediaFormula {
 
         double mediaFinal = nota.calcularMedia(P1, E1, E2, API, X, SUB);
         System.out.println("Média Final: " + mediaFinal);
+
+        sc.close();
     }
 }
