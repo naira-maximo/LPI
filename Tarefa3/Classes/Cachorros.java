@@ -10,11 +10,20 @@ public class Cachorros {
     public double getIdade() {
         return this.idade;
     }
+    public void setIdade(double idade) {
+        this.idade = idade;
+    }
     public String getRaça() {
         return this.raça;
     }
+    public void setRaça(String raça) {
+        this.raça = raça;
+    }
     public String getSexo() {
         return this.sexo;
+    }
+    public void setSexo(String sexo) {
+        this.sexo = sexo;
     }
 
     // Métodos
