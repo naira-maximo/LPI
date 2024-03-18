@@ -7,14 +7,23 @@ public class Filhotes {
     private String sexo;
 
     // Métodos de acesso
-    public double getIdade() {
+    public double getMeses() {
         return this.meses;
+    }
+    public void setMeses(double meses) {
+        this.meses = meses;
     }
     public String getCor() {
         return this.cor;
     }
+    public void setCor(String cor) {
+        this.cor = cor;
+    }
     public String getSexo() {
         return this.sexo;
+    }
+    public void setSexo(String sexo) {
+        this.sexo = sexo;
     }
 
     // Métodos

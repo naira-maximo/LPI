@@ -43,7 +43,7 @@ public class Budas {
     public static void main(String[] args) {
         Budas b1 = new Budas();
         b1.material = "gesso";
-        b1.altura = 25;
+        b1.altura = 30;
         b1.corpo = true;
     
         System.out.println("Altura: " + b1.altura + "cm\nModelo com corpo: " + b1.corpo + "\nMaterial " + b1.material);
@@ -64,6 +64,10 @@ public class Budas {
         b2.embrulhar("não");  
         
         Budas b3 = new Budas();
+
+        b3.material = "cerâmica";
+        b3.altura = 40;
+        b3.corpo = false;
         
         b3.pintar("nenhum");
         b3.personalizar("verde");

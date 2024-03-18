@@ -38,7 +38,7 @@ public class Operacoes {
         return new Operacoes(novoNumerador, novoDenominador);
     }
 
-    // Método para obter uma representação da fração
+    // Método para obter uma representação da fração  
     public String toString() {
         return numerador + "/" + denominador;
     }

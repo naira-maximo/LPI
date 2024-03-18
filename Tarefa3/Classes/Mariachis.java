@@ -10,11 +10,20 @@ public class Mariachis {
     public String getInstrumento() {
         return this.instrumento;
     }
+    public void setInstrumento(String instrumento) {
+        this.instrumento = instrumento;
+    }
     public String getNacionalidade() {
         return this.nacionalidade;
     }
+    public void setNacionalidade(String nacionalidade) {
+        this.nacionalidade = nacionalidade;
+    }
     public String getNome() {
         return this.nome;
+    }
+    public void setNome(String nome) {
+        this.nome = nome;
     }
 
     // Métodos

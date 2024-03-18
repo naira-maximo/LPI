@@ -24,5 +24,11 @@ public class Personagens {
         this.cor = cor;
     }
 
+    brincar nome string
+
+    jogar boolean escolhido
+
+    guardar tamanho void
+
 
 }

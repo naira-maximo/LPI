@@ -11,11 +11,20 @@ public class Paes {
     public String getTipoFarinha() {
         return this.tipoFarinha;
     }
+    public void setTipoFarinha(String tipoFarinha) {
+        this.tipoFarinha = tipoFarinha;
+    }
     public int getTamanho() {
         return this.tamanho;
     }
+    public void setTamanho(int tamanho) {
+        this.tamanho = tamanho;
+    }
     public LocalDate getFabricacao() {
         return this.fabricacao;
+    }
+    public void setFabricacao(LocalDate fabricacao) {
+        this.fabricacao = fabricacao;
     }
 
     // Métodos
