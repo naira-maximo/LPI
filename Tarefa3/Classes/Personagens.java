@@ -1,15 +1,15 @@
 package Tarefa3.Classes;
 public class Personagens {
 
-    private String nome;
+    private String nomePersonagem;
     private double tamanho;
     private String cor;
 
     public String getNome(){
-        return this.nome;
+        return this.nomePersonagem;
     }
-    public void setNome(String nome){
-        this.nome = nome;
+    public void setNome(String nomePersonagem){
+        this.nomePersonagem = nomePersonagem;
     }
     public double getTamanho(){
         return this.tamanho;
@@ -24,7 +24,7 @@ public class Personagens {
         this.cor = cor;
     }
 
-    brincar nome string
+    brincar nomePersonagem string
 
     jogar boolean escolhido
 

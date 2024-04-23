@@ -1,3 +1,5 @@
+package Tarefa3.Classes;
+
 public class Fracoes {
 
     // Atributos
