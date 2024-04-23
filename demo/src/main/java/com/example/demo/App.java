@@ -1,4 +1,4 @@
-package com.lpi.classes;
+package com.example.demo;
 
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
@@ -11,8 +11,8 @@ public class App extends Application {
     @Override
     public void start(Stage primaryStage) throws Exception{
         Parent root = FXMLLoader.load(getClass().getResource("main-view.fxml"));
-        primaryStage.setTitle("Criador de Animais");
-        primaryStage.setScene(new Scene(root, 300, 275));
+        primaryStage.setTitle("Criador de Objetos");
+        primaryStage.setScene(new Scene(root, 500, 700));
         primaryStage.show();
     }
 
