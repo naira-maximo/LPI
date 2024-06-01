@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+
+<VBox alignment="CENTER" prefHeight="1080.0" prefWidth="1080.0" spacing="20.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.demo.ClassesController">
+    <padding>
+        <Insets bottom="30.0" left="30.0" right="30.0" top="30.0" />
+    </padding>
+    <TabPane prefHeight="1000.0" prefWidth="700.0" tabClosingPolicy="UNAVAILABLE">
+        <tabs>
+            <Tab text="Cachorro">
+                <content>
+                    <AnchorPane centerShape="false" minHeight="100.0" minWidth="100.0" prefHeight="150.0" prefWidth="700.0" scaleShape="false">
+                  <opaqueInsets>
+                     <Insets />
+                  </opaqueInsets></AnchorPane>
+                    <VBox prefHeight="200.0" spacing="10.0">
+                        <ImageView fitHeight="200" fitWidth="350.0">
+                            <image>
+                                <Image url="@cachorros.jpg" />
+                            </image>
+                        </ImageView>
+                        <Label text="Idade:" />
+                        <TextField fx:id="idadeTextField" promptText="Digite a idade" />
+                        <Label text="Raça:" />
+                        <TextField fx:id="racaTextField" promptText="Digite a raça" />
+                        <Label text="Sexo:" />
+                        <TextField fx:id="sexoTextField" promptText="Digite o sexo" />
+                        <Label text="Passos:" />
+                        <TextField fx:id="passosTextField" nodeOrientation="LEFT_TO_RIGHT" prefHeight="26.0" prefWidth="425.0" promptText="Digite quantos passos você deu com o cachorro" />
+                        <Button fx:id="criarObjetoCachorro" text="Criar Objeto" />
+                        <ListView fx:id="cachorroListView" />
+                  <HBox prefHeight="100.0" prefWidth="200.0" />
+                    </VBox>
+                </content>
+            </Tab>
+            <Tab text="Mariachi">
+                <content>
+                    <AnchorPane minHeight="100.0" minWidth="100.0" prefHeight="150.0" prefWidth="700.0" />
+                    <VBox prefHeight="200.0" spacing="10.0">
+                        <ImageView fitHeight="200.0" fitWidth="350.0">
+                            <image>
+                                <Image url="@mariachis.jpg" />
+                            </image>
+                        </ImageView>
+                        <Label text="Instrumento:" />
+                        <TextField fx:id="instrumentoTextField" promptText="Digite o instrumento" />
+                        <Label text="Nacionalidade:" />
+                        <TextField fx:id="nacionalidadeTextField" promptText="Digite a nacionalidade" />
+                        <Label text="Nome:" />
+                        <TextField fx:id="nomeTextField" promptText="Digite o nome" />
+                        <Label text="Minutos:" />
+                        <TextField fx:id="minutosTextField" promptText="Digite os minutos" />
+                        <Button fx:id="criarObjetoMariachis" text="Criar Objeto" />
+                        <ListView fx:id="mariachiListView" />
+                    </VBox>
+                </content>
+            </Tab>
+            <Tab text="Suco">
+                <content>
+                    <AnchorPane minHeight="100.0" minWidth="100.0" prefHeight="150.0" prefWidth="700.0" />
+                    <VBox prefHeight="200.0" spacing="10.0">
+                        <ImageView fitHeight="200.0" fitWidth="350.0">
+                            <image>
+                                <Image url="@sucos.jpg" />
+                            </image>
+                        </ImageView>
+                        <Label text="Sabor:" />
+                        <TextField fx:id="saborTextField" promptText="Digite o sabor" />
+                        <Label text="Metodo:" />
+                        <TextField fx:id="metodoTextField" promptText="Digite o metodo" />
+                        <Label text="Medida:" />
+                        <TextField fx:id="medidaTextField" promptText="Digite a medida" />
+                        <Label text="Colocar gelo:" />
+                        <TextField fx:id="escolhaTextField" promptText="Deseja colocar gelo?" />
+                        <Button fx:id="criarObjetoSuco" text="Criar Objeto" />
+                        <ListView fx:id="sucoListView" />
+                    </VBox>
+                </content>
+            </Tab>
+            <Tab text="Fração">
+                <content>
+                    <VBox prefHeight="200.0" spacing="10.0">
+                        <ImageView fitHeight="200.0" fitWidth="350.0">
+                            <image>
+                                <Image url="@fracao.jpg" />
+                            </image>
+                        </ImageView>
+                        <Label text="Numerador:" />
+                        <TextField fx:id="num1TextField" prefHeight="20.0" prefWidth="100.0" promptText="Digite o numerador"/>
+                        <Label text="Denominador:" />
+                        <TextField fx:id="den1TextField" prefHeight="20.0" prefWidth="100.0" promptText="Digite o denominador"/>
+                        <Label text="Numerador:" />
+                        <TextField fx:id="num2TextField" prefHeight="5.0" prefWidth="10.0" promptText="Digite o numerador" />
+                        <Label text="Denominador:" />
+                        <TextField fx:id="den2TextField" prefHeight="5.0" prefWidth="10.0" promptText="Digite o denominador" />
+                        <Label text="Operador:" />
+                        <TextField fx:id="operadorTextField" prefHeight="5.0" prefWidth="10.0" promptText="Digite o operador" />
+                        <Button fx:id="criarObjetoFracao" text="Criar Objeto" />
+                        <ListView fx:id="fracaoListView" />
+                    </VBox>
+                </content>
+            </Tab>
+        </tabs>
+    </TabPane>
+</VBox>

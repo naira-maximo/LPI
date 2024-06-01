@@ -1,8 +1,5 @@
 package com.example.demo;
 
-import java.util.ArrayList;
-import java.util.List;
-
 import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;
 import javafx.fxml.FXML;
@@ -38,7 +35,6 @@ public class ClassesController {
     private TextField medidaTextField;
     @FXML
     private TextField escolhaTextField;
-
     // Atributos Frações
     @FXML
     private TextField num1TextField;
@@ -51,8 +47,6 @@ public class ClassesController {
 
     @FXML
     private TextField operadorTextField;
-
-    
 
     // Botões
     @FXML

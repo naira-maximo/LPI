@@ -7,13 +7,13 @@ class Instrumentos {
     private String material;
 
     // Métodos de acesso
-    public int getNome() {
+    public String getNome() {
         return this.nome;
     }
     public void setNome(String nome) {
         this.nome = nome;
     }
-    public String getCordas() {
+    public boolean getCordas() {
         return this.cordas;
     }
     public void setCordas(boolean cordas) {
